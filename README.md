@@ -1,5 +1,5 @@
-# 📊 SQL Advanced Analytics – Part 2
 
+# 📊 SQL Advanced Analytics – Part 2
 
 link to SQL Exploratory Data Analysis (EDA) part 1 : https://github.com/mahdddadg/Exploratory-Data-Analysis-EDA-part-1-
 
@@ -19,129 +19,151 @@ This project reflects my journey in developing advanced analytical thinking, SQL
 
 # 📌 Project Overview
 
-This project focuses on performing **Advanced SQL Analytics** on the **Gold Layer** of a Data Warehouse project.
+This repository represents the **second phase** of my SQL analytics project series and focuses on applying **Advanced SQL Analytics** techniques to solve real-world business problems and generate actionable business insights.
 
-Unlike Part 1, which concentrated on **Exploratory Data Analysis (EDA)** and understanding the dataset, this project focuses on applying advanced SQL techniques to solve real-world business problems and generate actionable insights.
+Unlike Part 1, which focused on **Exploratory Data Analysis (EDA)** and understanding the dataset structure, this project moves into deeper analytical reporting, KPI generation, customer intelligence, and performance analysis.
 
-The project includes:
 
-* Customer analytics reports
-* Product performance analysis
-* KPI calculations
-* Customer segmentation
-* Running totals & moving averages
-* Year-over-Year (YOY) analysis
-* Ranking analysis
-* Reusable analytical SQL views
-
-This project is built on top of my previously developed **SQL Exploratory Data Analysis (EDA)** project and the original **Data Warehouse Project**, where the data was cleaned, transformed, and modeled before advanced analysis.
-
+where the data was cleaned, transformed, modeled, and explored before advanced analysis
 🔗 Data Warehouse Project:
 [SQL Data Warehouse Project](https://github.com/mahdddadg/sql-data-warehouse?utm_source=chatgpt.com)
-
-🔗 Part 1 — SQL Exploratory Data Analysis (EDA):
-[SQL EDA Project](https://github.com/mahdddadg?utm_source=chatgpt.com)
 
 ---
 
 # 🗂️ Project Structure
 
-<img width="2051" height="1343" alt="full_analysis drawio" src="https://github.com/user-attachments/assets/66165982-f6cf-4ed0-b283-3dea462229fe" />
 
+
+<img width="2051" height="1343" alt="full_analysis drawio" src="https://github.com/user-attachments/assets/a373fa03-b67d-494e-8b24-2d0681456260" />
 
 The Advanced Analytics project is divided into the following stages:
 
-1️⃣ Change Over Time Analysis
+---
+
+# 1️⃣ Change Over Time Analysis
 
 Analyzing business performance trends over time to identify growth patterns, seasonality, and sales behavior.
 
-📌 Examples
-Sales by year
-Sales by month
-Yearly trends
-Monthly trends
-Seasonal analysis
-🧠 SQL Concepts Used
-DATE Functions
-Aggregations
-GROUP BY
-Time-Series Analysis
-2️⃣ Cumulative Analysis
+### 📌 Examples
+
+* Sales by year
+* Sales by month
+* Yearly trends
+* Monthly trends
+* Seasonal analysis
+
+### 🧠 SQL Concepts Used
+
+* DATE Functions
+* Aggregations
+* GROUP BY
+* Time-Series Analysis
+
+---
+
+# 2️⃣ Cumulative Analysis
 
 Performing cumulative and moving average calculations to monitor business growth over time.
 
-📌 Examples
-Running total sales
-Cumulative revenue analysis
-Moving average calculations
-Monthly and yearly cumulative trends
-🧠 SQL Concepts Used
-Window Functions
-SUM() OVER()
-AVG() OVER()
-Running Totals
-Moving Averages
-3️⃣ Performance Analysis
+### 📌 Examples
+
+* Running total sales
+* Cumulative revenue analysis
+* Moving average calculations
+* Monthly and yearly cumulative trends
+
+### 🧠 SQL Concepts Used
+
+* Window Functions
+* SUM() OVER()
+* AVG() OVER()
+* Running Totals
+* Moving Averages
+
+---
+
+# 3️⃣ Performance Analysis
 
 Analyzing the performance of products and customers using ranking and benchmarking techniques.
 
-📌 Examples
-Product performance analysis
-Revenue ranking
-Top-performing products
-Lowest-performing products
-Customer revenue analysis
-Year-Over-Year (YOY) analysis
-🧠 SQL Concepts Used
-RANK()
-ROW_NUMBER()
-LAG()
-Window Functions
-Performance Benchmarking
-4️⃣ Data Segmentation
+### 📌 Examples
+
+* Product performance analysis
+* Revenue ranking
+* Top-performing products
+* Lowest-performing products
+* Customer revenue analysis
+* Year-Over-Year (YOY) analysis
+
+### 🧠 SQL Concepts Used
+
+* RANK()
+* ROW_NUMBER()
+* LAG()
+* Window Functions
+* Performance Benchmarking
+
+---
+
+# 4️⃣ Data Segmentation
 
 Grouping customers and products into meaningful business segments based on behavior and spending patterns.
 
-📌 Examples
-VIP customers
-Regular customers
-New customers
-Product cost segmentation
-Customer lifetime analysis
-🧠 SQL Concepts Used
-CASE Statements
-GROUP BY
-Customer Segmentation
-Business Rules Logic
-5️⃣ Part-to-Whole Analysis
+### 📌 Examples
+
+* VIP customers
+* Regular customers
+* New customers
+* Product cost segmentation
+* Customer lifetime analysis
+
+### 🧠 SQL Concepts Used
+
+* CASE Statements
+* GROUP BY
+* Customer Segmentation
+* Business Rules Logic
+
+---
+
+# 5️⃣ Part-to-Whole Analysis
 
 Understanding how individual business components contribute to overall company performance.
 
-📌 Examples
-Revenue contribution by category
-Percentage contribution analysis
-Category performance comparison
-🧠 SQL Concepts Used
-SUM() OVER()
-Percentage Calculations
-Window Functions
-Aggregate Functions
-6️⃣ Reporting — Customers & Products
+### 📌 Examples
+
+* Revenue contribution by category
+* Percentage contribution analysis
+* Category performance comparison
+
+### 🧠 SQL Concepts Used
+
+* SUM() OVER()
+* Percentage Calculations
+* Window Functions
+* Aggregate Functions
+
+---
+
+# 6️⃣ Reporting — Customers & Products
 
 Building reusable analytical reports and SQL views for business intelligence and dashboarding purposes.
 
-📌 Examples
-Customer analytics reports
-Product analytics reports
-KPI reporting
-Customer behavior tracking
-Product sales reporting
-🧠 SQL Concepts Used
-SQL Views
-CTEs
-KPI Calculations
-Analytical Reporting
-Aggregate Functions
+### 📌 Examples
+
+* Customer analytics reports
+* Product analytics reports
+* KPI reporting
+* Customer behavior tracking
+* Product sales reporting
+
+### 🧠 SQL Concepts Used
+
+* SQL Views
+* CTEs
+* KPI Calculations
+* Analytical Reporting
+* Aggregate Functions
 
 ---
 
@@ -172,7 +194,7 @@ The EDA project focused on:
 * Ranking analysis
 * Business exploration queries
 
-This helped build a strong understanding of the dataset before moving into advanced analytics.
+This phase helped build a strong understanding of the dataset before moving into advanced analytical reporting.
 
 ---
 
@@ -192,10 +214,11 @@ The goal is to simulate real-world workflows commonly used by:
 * Business Intelligence Analysts
 * Analytics Engineers
 
+---
 
 
 
-
+---
 
 # 🎯 Project Goal
 
