@@ -1,88 +1,270 @@
-🚀 SQL Advanced Analytics – Part 2
-📌 Project Overview
+# 📊 SQL Advanced Analytics – Part 2
 
-This repository represents the second phase of my SQL analytics project series and focuses on applying advanced SQL techniques to solve real-world business problems and generate actionable insights from sales and customer data.
+## 👨‍💻 About Me
 
-While Part 1 focused on Exploratory Data Analysis (EDA) and understanding the structure and quality of the data, Part 2 takes the project further by building advanced analytical solutions, KPI reports, customer segmentation models, performance tracking systems, and reusable analytical views using SQL.
+Hi, I'm **Mahdi Dehlaghi** — a **Data Analyst** with a Bachelor's Degree in **Information Technology (IT)**.
+I am passionate about **Data Analytics**, **Business Intelligence**, and also highly interested in **Data Engineering** ⚙️📈.
 
-🔗 Relationship Between Part 1 & Part 2
-📊 Part 1 — Exploratory Data Analysis (EDA)
+🔗 Connect with me:
 
-In Part 1, the primary focus was to:
+LinkedIn: [Mahdi Dehlaghi LinkedIn](https://www.linkedin.com/in/mahdi-dehlaghi-24b7153a2?utm_source=chatgpt.com)
+Email: [dehlaghimahdi@gmail.com](mailto:dehlaghimahdi@gmail.com)
 
-Explore the database structure
-Understand table relationships
-Analyze distributions and trends
-Validate data quality
-Generate foundational business insights
-Perform descriptive analytics
+This project reflects my journey in developing advanced analytical thinking, SQL problem-solving skills, and building business-focused analytical solutions using SQL and Data Warehouse architectures.
 
-This phase built the analytical foundation required for advanced business reporting and deeper analysis.
+---
 
-📈 Part 2 — Advanced Analytics
+# 📌 Project Overview
 
-In Part 2, the project evolves from basic exploration into advanced analytical reporting and business intelligence.
+This project focuses on performing **Advanced SQL Analytics** on the **Gold Layer** of a Data Warehouse project.
 
-This phase includes:
+Unlike Part 1, which concentrated on **Exploratory Data Analysis (EDA)** and understanding the dataset, this project focuses on applying advanced SQL techniques to solve real-world business problems and generate actionable insights.
 
-✅ Customer Analytics Reports
-✅ Product Performance Analysis
-✅ Year-over-Year (YOY) Analysis
-✅ Running Totals & Moving Averages
-✅ Customer Segmentation
-✅ Product Segmentation
-✅ Revenue Contribution Analysis
-✅ KPI Reporting
-✅ Ranking Analysis with Window Functions
-✅ Reusable SQL Views for BI & Dashboards
+The project includes:
 
-The main objective is transforming raw transactional data into meaningful business insights using advanced SQL concepts and analytical thinking.
+* Customer analytics reports
+* Product performance analysis
+* KPI calculations
+* Customer segmentation
+* Running totals & moving averages
+* Year-over-Year (YOY) analysis
+* Ranking analysis
+* Reusable analytical SQL views
 
-🛠️ SQL Skills & Concepts Used
-Common Table Expressions (CTEs)
-Window Functions
-RANK() & ROW_NUMBER()
-LAG() for YOY Analysis
-Running Totals
-Moving Averages
-Aggregate Functions
-Customer Segmentation
-KPI Calculations
-CASE Statements
-Date & Time Functions
-Analytical Reporting
-SQL Views
-Business Performance Analysis
-💡 Business Problems Solved
+This project is built on top of my previously developed **SQL Exploratory Data Analysis (EDA)** project and the original **Data Warehouse Project**, where the data was cleaned, transformed, and modeled before advanced analysis.
 
-This project helps answer important business questions such as:
+🔗 Data Warehouse Project:
+[SQL Data Warehouse Project](https://github.com/mahdddadg/sql-data-warehouse?utm_source=chatgpt.com)
 
-📌 Which products generate the highest revenue?
-📌 Which customers contribute the most sales?
-📌 How do sales trends change over time?
-📌 Which product categories drive the business most?
-📌 How can customers be segmented based on behavior?
-📌 What are the yearly growth patterns of products?
-📌 How can reusable reporting datasets be built for BI tools?
+🔗 Part 1 — SQL Exploratory Data Analysis (EDA):
+[SQL EDA Project](https://github.com/mahdddadg?utm_source=chatgpt.com)
 
-📂 Dataset Used
-gold.facts_sales
-gold.dim_customers
-gold.dim_products
-🎯 Project Goal
+---
+
+# 🗂️ Project Structure
+
+The Advanced Analytics project is divided into the following stages:
+
+## 1️⃣ Time Series & Trend Analysis
+
+Analyzing business performance over time to identify trends, growth patterns, and seasonality.
+
+### 📌 Examples
+
+* Sales performance by year
+* Monthly sales trends
+* Seasonal analysis
+* Running totals
+* Moving averages
+
+### 🧠 SQL Concepts Used
+
+* Window Functions
+* SUM() OVER()
+* AVG() OVER()
+* DATE Functions
+* Running Totals
+* Moving Averages
+
+---
+
+## 2️⃣ Customer Analytics Report
+
+Building a complete customer-level analytical report with KPIs and segmentation logic.
+
+### 📌 Examples
+
+* Customer lifetime analysis
+* Recency analysis
+* Average order value (AOV)
+* Average monthly spend
+* Customer segmentation
+
+### 🧠 SQL Concepts Used
+
+* CTEs
+* Aggregate Functions
+* CASE Statements
+* KPI Calculations
+* SQL Views
+
+---
+
+## 3️⃣ Product Performance Analysis
+
+Evaluating product sales performance and benchmarking products against historical averages.
+
+### 📌 Examples
+
+* Product revenue analysis
+* Product ranking
+* Performance benchmarking
+* Revenue comparison
+
+### 🧠 SQL Concepts Used
+
+* Window Functions
+* AVG() OVER()
+* Aggregate Analysis
+* Ranking Functions
+
+---
+
+## 4️⃣ Year-Over-Year (YOY) Analysis
+
+Comparing yearly product sales to identify growth and decline trends.
+
+### 📌 Examples
+
+* Previous year sales comparison
+* YOY growth analysis
+* Increasing vs decreasing products
+
+### 🧠 SQL Concepts Used
+
+* LAG()
+* Window Functions
+* Time-Series Analysis
+* CASE Statements
+
+---
+
+## 5️⃣ Customer & Product Segmentation
+
+Grouping customers and products into business segments based on behavior and performance.
+
+### 📌 Examples
+
+* VIP customers
+* Regular customers
+* New customers
+* Product cost segmentation
+
+### 🧠 SQL Concepts Used
+
+* CASE Statements
+* GROUP BY
+* Customer Lifetime Analysis
+* Segmentation Logic
+
+---
+
+## 6️⃣ Revenue Contribution Analysis
+
+Analyzing which business entities contribute the most to total company revenue.
+
+### 📌 Examples
+
+* Revenue by category
+* Customer revenue contribution
+* Product contribution analysis
+
+### 🧠 SQL Concepts Used
+
+* SUM() OVER()
+* Percentage Calculations
+* Aggregate Functions
+* Window Functions
+
+---
+
+## 7️⃣ Ranking & Performance Analysis
+
+Ranking products and customers based on business performance metrics.
+
+### 📌 Examples
+
+* Top-selling products
+* Lowest-performing products
+* Top customers by revenue
+* Product ranking analysis
+
+### 🧠 SQL Concepts Used
+
+* RANK()
+* ROW_NUMBER()
+* ORDER BY
+* TOP N Analysis
+
+---
+
+# 🏗️ Relationship with Previous Projects
+
+This project is the continuation of my SQL learning and analytics journey.
+
+## 📦 Data Warehouse Project
+
+The foundation project included:
+
+* ETL processes ⚙️
+* Data cleaning 🧹
+* Data transformation 🔄
+* Star schema modeling ⭐
+* Fact and dimension tables 📚
+* Bronze, Silver, and Gold architecture 🥉🥈🥇
+
+---
+
+## 📊 SQL EDA Project — Part 1
+
+The EDA project focused on:
+
+* Database exploration
+* Understanding dimensions & measures
+* Trend analysis
+* Ranking analysis
+* Business exploration queries
+
+This helped build a strong understanding of the dataset before moving into advanced analytics.
+
+---
+
+## 🚀 SQL Advanced Analytics — Part 2
+
+This project extends the previous phases by transforming raw business data into:
+
+* Analytical reports
+* Business KPIs
+* Customer intelligence
+* Product performance insights
+* Advanced SQL reporting solutions
+
+The goal is to simulate real-world workflows commonly used by:
+
+* Data Analysts
+* Business Intelligence Analysts
+* Analytics Engineers
+
+---
+
+# 🛠️ Technologies Used
+
+* SQL Server
+* T-SQL
+* Data Warehouse Architecture
+* Window Functions
+* CTEs
+* Analytical SQL
+* Git & GitHub
+
+---
+
+# 🎯 Project Goal
 
 The goal of this project is to demonstrate how SQL can be used not only for querying data, but also for:
 
-Advanced analytics
-Business intelligence
-KPI reporting
-Customer behavior analysis
-Performance tracking
-Data-driven decision making
+* Advanced analytics
+* Business intelligence
+* KPI reporting
+* Customer behavior analysis
+* Performance tracking
+* Data-driven decision making
 
-This project simulates real-world workflows commonly used by Data Analysts and Business Intelligence Analysts.
+This project simulates real-world analytical workflows used in modern data teams.
 
-👨‍💻 Author
-Mahdi Dehlaghi
+---
 
+# 🙌 Author
+
+**Mahdi Dehlaghi**
 📊 Data Analyst
