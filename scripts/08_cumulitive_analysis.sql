@@ -1,3 +1,44 @@
+/* ============================================================
+   Project: Cumulative & Moving Average Sales Analysis
+
+   Objective:
+   Perform time-series sales analysis using SQL window functions
+   to evaluate business growth trends, cumulative revenue, and
+   moving average performance over monthly and yearly periods.
+
+   Analysis Includes:
+   1. Monthly Cumulative Sales Analysis
+      - Calculate total monthly sales
+      - Track running total sales over time
+
+   2. Yearly Cumulative Sales Analysis
+      - Calculate total yearly sales
+      - Measure long-term revenue growth trends
+
+   3. Monthly Moving Average Analysis
+      - Compute average monthly sales values
+      - Identify short-term sales trends and fluctuations
+      - Combine moving averages with cumulative metrics
+
+   4. Yearly Moving Average Analysis
+      - Evaluate yearly sales stability and growth
+      - Analyze long-term average revenue behavior
+
+   SQL Concepts Used:
+   - Window Functions
+   - SUM() OVER()
+   - AVG() OVER()
+   - Running Totals
+   - Moving Averages
+   - Date Truncation
+   - Aggregate Functions
+   - Subqueries
+
+   Dataset:
+   gold.facts_sales
+============================================================ */
+
+
 --- calculating the total sales per month and the running total of sales over time ( cumuletice analysis ) :
 
 
