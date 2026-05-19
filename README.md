@@ -1,5 +1,8 @@
 # 📊 SQL Advanced Analytics – Part 2
 
+
+link to SQL Exploratory Data Analysis (EDA) part 1 : 
+
 ## 👨‍💻 About Me
 
 Hi, I'm **Mahdi Dehlaghi** — a **Data Analyst** with a Bachelor's Degree in **Information Technology (IT)**.
@@ -48,146 +51,97 @@ This project is built on top of my previously developed **SQL Exploratory Data A
 
 The Advanced Analytics project is divided into the following stages:
 
-## 1️⃣ Time Series & Trend Analysis
+1️⃣ Change Over Time Analysis
 
-Analyzing business performance over time to identify trends, growth patterns, and seasonality.
+Analyzing business performance trends over time to identify growth patterns, seasonality, and sales behavior.
 
-### 📌 Examples
+📌 Examples
+Sales by year
+Sales by month
+Yearly trends
+Monthly trends
+Seasonal analysis
+🧠 SQL Concepts Used
+DATE Functions
+Aggregations
+GROUP BY
+Time-Series Analysis
+2️⃣ Cumulative Analysis
 
-* Sales performance by year
-* Monthly sales trends
-* Seasonal analysis
-* Running totals
-* Moving averages
+Performing cumulative and moving average calculations to monitor business growth over time.
 
-### 🧠 SQL Concepts Used
+📌 Examples
+Running total sales
+Cumulative revenue analysis
+Moving average calculations
+Monthly and yearly cumulative trends
+🧠 SQL Concepts Used
+Window Functions
+SUM() OVER()
+AVG() OVER()
+Running Totals
+Moving Averages
+3️⃣ Performance Analysis
 
-* Window Functions
-* SUM() OVER()
-* AVG() OVER()
-* DATE Functions
-* Running Totals
-* Moving Averages
+Analyzing the performance of products and customers using ranking and benchmarking techniques.
 
----
+📌 Examples
+Product performance analysis
+Revenue ranking
+Top-performing products
+Lowest-performing products
+Customer revenue analysis
+Year-Over-Year (YOY) analysis
+🧠 SQL Concepts Used
+RANK()
+ROW_NUMBER()
+LAG()
+Window Functions
+Performance Benchmarking
+4️⃣ Data Segmentation
 
-## 2️⃣ Customer Analytics Report
+Grouping customers and products into meaningful business segments based on behavior and spending patterns.
 
-Building a complete customer-level analytical report with KPIs and segmentation logic.
+📌 Examples
+VIP customers
+Regular customers
+New customers
+Product cost segmentation
+Customer lifetime analysis
+🧠 SQL Concepts Used
+CASE Statements
+GROUP BY
+Customer Segmentation
+Business Rules Logic
+5️⃣ Part-to-Whole Analysis
 
-### 📌 Examples
+Understanding how individual business components contribute to overall company performance.
 
-* Customer lifetime analysis
-* Recency analysis
-* Average order value (AOV)
-* Average monthly spend
-* Customer segmentation
+📌 Examples
+Revenue contribution by category
+Percentage contribution analysis
+Category performance comparison
+🧠 SQL Concepts Used
+SUM() OVER()
+Percentage Calculations
+Window Functions
+Aggregate Functions
+6️⃣ Reporting — Customers & Products
 
-### 🧠 SQL Concepts Used
+Building reusable analytical reports and SQL views for business intelligence and dashboarding purposes.
 
-* CTEs
-* Aggregate Functions
-* CASE Statements
-* KPI Calculations
-* SQL Views
-
----
-
-## 3️⃣ Product Performance Analysis
-
-Evaluating product sales performance and benchmarking products against historical averages.
-
-### 📌 Examples
-
-* Product revenue analysis
-* Product ranking
-* Performance benchmarking
-* Revenue comparison
-
-### 🧠 SQL Concepts Used
-
-* Window Functions
-* AVG() OVER()
-* Aggregate Analysis
-* Ranking Functions
-
----
-
-## 4️⃣ Year-Over-Year (YOY) Analysis
-
-Comparing yearly product sales to identify growth and decline trends.
-
-### 📌 Examples
-
-* Previous year sales comparison
-* YOY growth analysis
-* Increasing vs decreasing products
-
-### 🧠 SQL Concepts Used
-
-* LAG()
-* Window Functions
-* Time-Series Analysis
-* CASE Statements
-
----
-
-## 5️⃣ Customer & Product Segmentation
-
-Grouping customers and products into business segments based on behavior and performance.
-
-### 📌 Examples
-
-* VIP customers
-* Regular customers
-* New customers
-* Product cost segmentation
-
-### 🧠 SQL Concepts Used
-
-* CASE Statements
-* GROUP BY
-* Customer Lifetime Analysis
-* Segmentation Logic
-
----
-
-## 6️⃣ Revenue Contribution Analysis
-
-Analyzing which business entities contribute the most to total company revenue.
-
-### 📌 Examples
-
-* Revenue by category
-* Customer revenue contribution
-* Product contribution analysis
-
-### 🧠 SQL Concepts Used
-
-* SUM() OVER()
-* Percentage Calculations
-* Aggregate Functions
-* Window Functions
-
----
-
-## 7️⃣ Ranking & Performance Analysis
-
-Ranking products and customers based on business performance metrics.
-
-### 📌 Examples
-
-* Top-selling products
-* Lowest-performing products
-* Top customers by revenue
-* Product ranking analysis
-
-### 🧠 SQL Concepts Used
-
-* RANK()
-* ROW_NUMBER()
-* ORDER BY
-* TOP N Analysis
+📌 Examples
+Customer analytics reports
+Product analytics reports
+KPI reporting
+Customer behavior tracking
+Product sales reporting
+🧠 SQL Concepts Used
+SQL Views
+CTEs
+KPI Calculations
+Analytical Reporting
+Aggregate Functions
 
 ---
 
@@ -238,19 +192,10 @@ The goal is to simulate real-world workflows commonly used by:
 * Business Intelligence Analysts
 * Analytics Engineers
 
----
 
-# 🛠️ Technologies Used
 
-* SQL Server
-* T-SQL
-* Data Warehouse Architecture
-* Window Functions
-* CTEs
-* Analytical SQL
-* Git & GitHub
 
----
+
 
 # 🎯 Project Goal
 
