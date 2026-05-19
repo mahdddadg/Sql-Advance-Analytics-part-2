@@ -43,6 +43,9 @@ This project is built on top of my previously developed **SQL Exploratory Data A
 
 # 🗂️ Project Structure
 
+<img width="2051" height="1343" alt="full_analysis drawio" src="https://github.com/user-attachments/assets/66165982-f6cf-4ed0-b283-3dea462229fe" />
+
+
 The Advanced Analytics project is divided into the following stages:
 
 ## 1️⃣ Time Series & Trend Analysis
