@@ -1,3 +1,38 @@
+/* ============================================================
+   Project: Product Performance & Year-Over-Year (YOY) Analysis
+
+   Objective:
+   Analyze product sales performance by comparing yearly product
+   revenue against historical averages and previous year sales
+   to identify growth trends, performance changes, and business insights.
+
+   Analysis Includes:
+   1. Product-Level Yearly Sales Performance
+      - Calculate total yearly sales for each product
+
+   2. Average Product Sales Benchmarking
+      - Compare current yearly sales against the product's
+        historical average sales performance
+      - Classify products as:
+          • Above Average
+          • Below Average
+          • Average
+
+   3. Year-Over-Year (YOY) Analysis
+      - Compare current year sales with previous year sales
+      - Measure yearly growth or decline using LAG()
+
+   4. Sales Trend Classification
+      - Identify whether product sales are:
+          • Increasing
+          • Decreasing
+          • No Change
+
+   Dataset:
+   - gold.facts_sales
+   - gold.dim_products
+============================================================ */
+
 /*
 
 we want to analyze performance of products by comparing thier sales
