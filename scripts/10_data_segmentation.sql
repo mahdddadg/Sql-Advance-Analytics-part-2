@@ -1,3 +1,61 @@
+/* ============================================================
+   Project: Product & Customer Segmentation Analysis
+
+   Objective:
+   Perform segmentation analysis on products and customers
+   to better understand pricing distribution, customer value,
+   and business performance patterns.
+
+   ============================================================
+   1. Product Cost Segmentation Analysis
+   ============================================================
+
+   Goal:
+   Categorize products into cost-based segments and measure
+   how many products belong to each pricing category.
+
+   Product Cost Segments:
+   - Below 100
+   - 100 to 500
+   - 500 to 1000
+   - Above 1000
+
+   Business Value:
+   - Identify product pricing distribution
+   - Understand inventory composition
+   - Support pricing and product strategy decisions
+
+   ============================================================
+   2. Customer Segmentation Analysis
+   ============================================================
+
+   Goal:
+   Classify customers based on purchasing behavior,
+   spending level, and customer lifetime value.
+
+   Customer Segments:
+   1. VIP
+      - Customer lifetime greater than 12 months
+      - Total spending above 5,000
+
+   2. Regular
+      - Customer lifetime at least 12 months
+      - Total spending 5,000 or less
+
+   3. New
+      - Customer lifetime less than 12 months
+
+
+ 
+
+   Dataset:
+   - gold.facts_sales
+   - gold.dim_products
+   - gold.dim_customers
+============================================================ */
+
+
+
 /*
 
 segmenting products into cost ranges and
