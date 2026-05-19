@@ -1,7 +1,7 @@
 # 📊 SQL Advanced Analytics – Part 2
 
 
-link to SQL Exploratory Data Analysis (EDA) part 1 : 
+link to SQL Exploratory Data Analysis (EDA) part 1 : https://github.com/mahdddadg/Exploratory-Data-Analysis-EDA-part-1-
 
 ## 👨‍💻 About Me
 
