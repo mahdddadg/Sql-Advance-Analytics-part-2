@@ -1,4 +1,4 @@
-🚀 SQL Advanced Analytics – Part 2
+🚀 #SQL Advanced Analytics – Part 2
 📌 Project Overview
 
 This repository represents the second phase of my SQL analytics project series and focuses on applying advanced SQL techniques to solve real-world business problems and generate actionable insights from sales and customer data.
