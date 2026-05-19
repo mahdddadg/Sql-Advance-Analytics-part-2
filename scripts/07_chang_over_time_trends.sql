@@ -1,4 +1,24 @@
+/* ============================================================
+   Project: Advanced Sales Performance Analysis
+   Objective:
+   Analyze sales trends over time using yearly and monthly
+   aggregations to identify growth patterns, customer activity,
+   product demand, and seasonal business behavior.
 
+   Key Metrics:
+   - Total Sales Revenue
+   - Total Customers
+   - Total Quantity Sold
+
+   Analysis Includes:
+   1. Yearly Sales Performance
+   2. Monthly Seasonality Analysis
+   3. Year-Month Trend Analysis
+   4. Formatted Time-Based Reporting
+
+   Dataset:
+   gold.facts_sales
+============================================================ */
 
 
 
